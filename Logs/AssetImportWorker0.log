@@ -1,0 +1,529 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'ru' Physical Memory: 16312 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Egor/Projects/UnityProjects/AndroidWebViewPluginForUnity3D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59395
+Successfully changed project path to: D:/Egor/Projects/UnityProjects/AndroidWebViewPluginForUnity3D
+D:/Egor/Projects/UnityProjects/AndroidWebViewPluginForUnity3D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 67.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Egor/Projects/UnityProjects/AndroidWebViewPluginForUnity3D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 570 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     4041 MB
+    Driver:   23.20.832.0
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56972
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001810 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 50.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.005 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 51.95 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.345 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1907 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.4 MB.
+System memory in use after: 87.5 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 3.094400 ms (FindLiveObjects: 0.380900 ms CreateObjectMapping: 0.123900 ms MarkObjects: 2.492300 ms  DeleteObjects: 0.095500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts
+  artifactKey: Guid(5c08fae972b3976448797aec5bf739b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(5c08fae972b3976448797aec5bf739b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1333ae408bf8a9bcb4f381b387dfeb') in 0.025351 seconds
+  Import took 0.028681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.123355 seconds.
+  path: Assets/Scripts/PluginTest.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PluginTest.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecc69b9898a6eb0b5e14d9da260e671') in 0.026003 seconds
+  Import took 0.030131 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000886 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1898 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.9 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 3.176000 ms (FindLiveObjects: 0.422500 ms CreateObjectMapping: 0.196100 ms MarkObjects: 2.525800 ms  DeleteObjects: 0.028900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.865 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1902 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.0 MB.
+System memory in use after: 87.1 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 3.752700 ms (FindLiveObjects: 0.411100 ms CreateObjectMapping: 0.222000 ms MarkObjects: 3.078700 ms  DeleteObjects: 0.038900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.8 MB.
+System memory in use after: 49.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 4.218600 ms (FindLiveObjects: 1.005900 ms CreateObjectMapping: 0.295100 ms MarkObjects: 2.887800 ms  DeleteObjects: 0.026900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001204 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1910 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.5 MB.
+System memory in use after: 87.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2362.
+Total: 2.794000 ms (FindLiveObjects: 0.271400 ms CreateObjectMapping: 0.054600 ms MarkObjects: 2.436900 ms  DeleteObjects: 0.029800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 15993.193441 seconds.
+  path: Assets/Scripts/PluginTest.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PluginTest.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '104d7059d8db69612adc6511d6f12637') in 0.123586 seconds
+  Import took 0.202843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.508536 seconds.
+  path: Assets/Scripts/AndroidWebViewPlugin.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AndroidWebViewPlugin.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c6f13fcd9f3042d0e8d64bd44cd865') in 0.005389 seconds
+  Import took 0.008874 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1910 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.5 MB.
+System memory in use after: 87.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 2.981500 ms (FindLiveObjects: 0.302300 ms CreateObjectMapping: 0.068700 ms MarkObjects: 2.577000 ms  DeleteObjects: 0.029400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 992.125814 seconds.
+  path: Assets/Scripts/AndroidWebViewPlugin.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AndroidWebViewPlugin.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49b94ec233f9da816eee61fe217b34b') in 0.006425 seconds
+  Import took 0.010523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.386628 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5e2bbb715c3265451bbe01b80c6c0a') in 0.018718 seconds
+  Import took 0.022413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.013049 seconds.
+  path: Assets/Scenes/PluginTest.unity
+  artifactKey: Guid(0529aba8e580aef4c84e4ec0fc8d2ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/PluginTest.unity using Guid(0529aba8e580aef4c84e4ec0fc8d2ea0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd7b86cc234114d5dfda4261a79be68') in 0.003636 seconds
+  Import took 0.007476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.027906 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(bbbc74fad6ed1d243aee6102298f428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(bbbc74fad6ed1d243aee6102298f428b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c755fc36685d6091a6a988ac190a47') in 0.003843 seconds
+  Import took 0.007452 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1911 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2370.
+Total: 3.358300 ms (FindLiveObjects: 0.394500 ms CreateObjectMapping: 0.106900 ms MarkObjects: 2.820900 ms  DeleteObjects: 0.033800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 2177.127167 seconds.
+  path: Assets/Scripts/AndroidWebViewPlugin.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AndroidWebViewPlugin.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bc8678c20d954083401633eb08e130') in 0.006021 seconds
+  Import took 0.010027 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.2 MB.
+System memory in use after: 50.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2370.
+Total: 3.474900 ms (FindLiveObjects: 0.364000 ms CreateObjectMapping: 0.104800 ms MarkObjects: 2.973400 ms  DeleteObjects: 0.030600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2193.654269 seconds.
+  path: Assets/Scripts/AndroidWebViewPlugin.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AndroidWebViewPlugin.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b1c1216f67743f151546cfd2d3ff37') in 0.008644 seconds
+  Import took 0.093761 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.655 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1911 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 3.096800 ms (FindLiveObjects: 0.390700 ms CreateObjectMapping: 0.151600 ms MarkObjects: 2.518200 ms  DeleteObjects: 0.033800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 341.226255 seconds.
+  path: Assets/Scripts/AndroidWebViewPlugin.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AndroidWebViewPlugin.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce47eedb174e424eab2d77516049776') in 0.006630 seconds
+  Import took 0.048925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.401721 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(851765e60509de64c9431510b5d290d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(851765e60509de64c9431510b5d290d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003fd7b51b08b7e32d0d1b5c4bef6c2b') in 0.047157 seconds
+  Import took 0.074771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020962 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(851765e60509de64c9431510b5d290d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(851765e60509de64c9431510b5d290d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003fd7b51b08b7e32d0d1b5c4bef6c2b') in 0.003965 seconds
+  Import took 0.008118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.977725 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(851765e60509de64c9431510b5d290d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(851765e60509de64c9431510b5d290d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c368a2a4a35d8289627f15a57893430') in 0.003799 seconds
+  Import took 0.012046 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001740 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.515 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1911 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 3.094200 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.079800 ms MarkObjects: 2.681600 ms  DeleteObjects: 0.030700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1911 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 2.917500 ms (FindLiveObjects: 0.317500 ms CreateObjectMapping: 0.127900 ms MarkObjects: 2.442100 ms  DeleteObjects: 0.027900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.2 MB.
+System memory in use after: 50.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 6.589400 ms (FindLiveObjects: 0.504800 ms CreateObjectMapping: 0.067800 ms MarkObjects: 5.978100 ms  DeleteObjects: 0.031800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.2 MB.
+System memory in use after: 50.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 7.242700 ms (FindLiveObjects: 0.405600 ms CreateObjectMapping: 0.085700 ms MarkObjects: 6.706600 ms  DeleteObjects: 0.040700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 476.442513 seconds.
+  path: Assets/Plugins/Android/AndroidManifest.xml
+  artifactKey: Guid(851765e60509de64c9431510b5d290d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/AndroidManifest.xml using Guid(851765e60509de64c9431510b5d290d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398f25e258c0e0d72c331839d81ba85d') in 0.061285 seconds
+  Import took 0.066005 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.2 MB.
+System memory in use after: 50.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 6.282500 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 0.063300 ms MarkObjects: 5.827800 ms  DeleteObjects: 0.037700 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.2 MB.
+System memory in use after: 50.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2382.
+Total: 6.628200 ms (FindLiveObjects: 0.395700 ms CreateObjectMapping: 0.103400 ms MarkObjects: 6.084400 ms  DeleteObjects: 0.039800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 456.399684 seconds.
+  path: Assets/Scripts/AndroidWebViewPlugin.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AndroidWebViewPlugin.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9856df77fcc76c3ab4641b4da62da6d0') in 0.003402 seconds
+  Import took 0.009181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047110 seconds.
+  path: Assets/Scripts/AndroidWebViewPlugin.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AndroidWebViewPlugin.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9856df77fcc76c3ab4641b4da62da6d0') in 0.002911 seconds
+  Import took 0.007059 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.680 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1911 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2386.
+Total: 2.910700 ms (FindLiveObjects: 0.336100 ms CreateObjectMapping: 0.191100 ms MarkObjects: 2.348600 ms  DeleteObjects: 0.032800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 215.286125 seconds.
+  path: Assets/Scripts/AndroidWebViewPlugin.cs
+  artifactKey: Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AndroidWebViewPlugin.cs using Guid(410af1519a810cc4bbb08ddcc5807347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b75711fd82641403e2c3a677b5165985') in 0.005795 seconds
+  Import took 0.041650 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.2 MB.
+System memory in use after: 50.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2386.
+Total: 5.982200 ms (FindLiveObjects: 0.401700 ms CreateObjectMapping: 0.077100 ms MarkObjects: 5.465400 ms  DeleteObjects: 0.033900 ms)
+
