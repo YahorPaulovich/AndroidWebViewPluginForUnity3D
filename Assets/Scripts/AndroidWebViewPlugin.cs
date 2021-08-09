@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class AndroidWebViewPlugin : MonoBehaviour
 {
 	private const string _pluginName = "georgelabs.games.androidplugin.AndroidWebViewPlugin";
+	//private const string _pluginName = "georgelabs.games.androidplugin.WebViewActivity";
 
     private static AndroidJavaClass _pluginClass;
     private static AndroidJavaObject _pluginInstance;
@@ -37,24 +38,30 @@ public class AndroidWebViewPlugin : MonoBehaviour
 		}
 	}
 
-    private void StartPackage(string package, string startActivity)
-    {
-        AndroidJavaClass activityClass;
-        AndroidJavaObject activity, packageManager;
-        AndroidJavaObject launch;
+    //private void StartPackage(string package, string startActivity)
+    //{
+    //    AndroidJavaClass activityClass;
+    //    AndroidJavaObject activity, packageManager;
+    //    AndroidJavaObject launch;
 
-        activityClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
-        activity = activityClass.GetStatic<AndroidJavaObject>("currentActivity");
-        packageManager = activity.Call<AndroidJavaObject>("getPackageManager");
-        launch = packageManager.Call<AndroidJavaObject>("getLaunchIntentForPackage", package);
-        activity.Call(startActivity, launch);
-    }
+    //    activityClass = new AndroidJavaClass("com.unity3d.player.UnityPlayer");
+    //    activity = activityClass.GetStatic<AndroidJavaObject>("currentActivity");
+    //    packageManager = activity.Call<AndroidJavaObject>("getPackageManager");
+    //    launch = packageManager.Call<AndroidJavaObject>("getLaunchIntentForPackage", package);
+    //    activity.Call(startActivity, launch);
+    //}
 
     private void Awake()
     {
         Debug.Log("Elapsed Time: " + getElapsedTime());
         //OpenWebView("https://video-slots.live/liveslots");
-        StartPackage("georgelabs.games.androidplugin.WebViewActivity", "WebViewActivity");
+        OpenWebView("https://www.youtube.com/");
+        //StartPackage("georgelabs.games.androidplugin.WebViewActivity", "WebViewActivity");
+    }
+
+    private void Start()
+    {
+
     }
 
     private void Update()
@@ -77,7 +84,8 @@ public class AndroidWebViewPlugin : MonoBehaviour
 	{
         if (Application.platform == RuntimePlatform.Android)
         {
-            PluginInstance.Call("showWebView", url);
+            //PluginInstance.Call("showWebView", url);
+            PluginInstance.Call("OpenWebView", url);
 		}
     }
 
@@ -91,6 +99,6 @@ public class AndroidWebViewPlugin : MonoBehaviour
 
     private void OnDestroy()
     {
-        CloseWebView();
+        //CloseWebView();
     }
 }

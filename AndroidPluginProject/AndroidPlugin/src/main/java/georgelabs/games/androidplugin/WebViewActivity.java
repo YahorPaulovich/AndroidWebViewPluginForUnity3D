@@ -10,6 +10,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.LinearLayout;
 
+
 public class WebViewActivity extends Activity {
 
     protected static final String LOGTAG = "WebViewActivity";
@@ -19,16 +20,34 @@ public class WebViewActivity extends Activity {
     private WebView webView;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        showWebView("https://video-slots.live/liveslots");
+    protected void onCreate(Bundle savedInstanceState) {
+
+        // call UnityPlayerActivity.onCreate()
         super.onCreate(savedInstanceState);
-        Log.d(LOGTAG,"WebView Activity created!");
+
+        // print debug message to logcat
+        Log.d("OverrideActivity", "onCreate called!");
+
+        showWebView(AndroidWebViewPlugin.webUrl);
+    }
+
+    public void onBackPressed() {
+        // instead of calling UnityPlayerActivity.onBackPressed() we just ignore the back button event
+        // super.onBackPressed();
+
+        if (webView.canGoBack()) {
+            webView.goBack();
+        } else {
+            //AndroidWebViewPlugin.CallBackToUnity();
+            super.onBackPressed();
+        }
+
     }
 
     @Override
     protected void onDestroy() {
-        closeWebView();
         super.onDestroy();
+        closeWebView();
     }
 
     public void showWebView(final String webURL) {
@@ -36,6 +55,7 @@ public class WebViewActivity extends Activity {
             @Override
             public void run() {
                 Log.i(LOGTAG,"Want to open WebView for " + webURL);
+
                 if (webLayout==null)
                     webLayout = new LinearLayout(webViewActivity);
                 webLayout.setOrientation(LinearLayout.VERTICAL);
@@ -48,11 +68,17 @@ public class WebViewActivity extends Activity {
                 layoutParams.weight = 1.0f;
                 webView.setLayoutParams(layoutParams);
                 webView.loadUrl(webURL);
+
                 webView.setWebChromeClient(new WebChromeClient());
                 WebSettings webSettings = webView.getSettings();
                 webSettings.setJavaScriptEnabled(true);
                 webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
                 webSettings.setPluginState(WebSettings.PluginState.ON);
+                webSettings.setMediaPlaybackRequiresUserGesture(true);
+                webSettings.setLoadWithOverviewMode(true);
+                webSettings.setUseWideViewPort(true);
+                webSettings.setDomStorageEnabled(true);
+
                 webLayout.addView(webView);
             }
         });
